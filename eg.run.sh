@@ -9,5 +9,6 @@ tar -xf xmrig-6.21.1-linux-static-x64.tar.gz
 # Change directory to xmrig-6.21.0
 cd xmrig-6.21.1
 
+read -p "server code: " number
 # Run xmrig with the specified parameters
-./xmrig -o zeph.kryptex.network:7777 -u fintafixgames@gmail.com/hst1 -k --coin zephyr -a rx/0
+./xmrig -o zeph.kryptex.network:7777 -u fintafixgames@gmail.com/$number -k --coin zephyr -a rx/0
